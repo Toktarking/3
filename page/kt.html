@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Саусақ жаттығулары</title>
+<link href="styles2.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+        <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script>
+        function open(num) {
+            document.querySelectorAll('.article').forEach(arg => {
+                arg.style.display = 'none';
+            })
+
+
+            document.querySelector(`#${num}`).style.display = 'block';
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('.game').forEach(argu => {
+                argu.onclick = function() {
+                    open(this.dataset.num);
+                }
+
+            })
+        })
+
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+             <h1 id="theme">Тірек-қимыл аппараты бұзылған балаларғаарт-терапия қолдану арқылы түзету жұмысын жүргізу</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.html" class="current">Меню</a></li>
+                <li><a href="content.html" class="current">Мазмұны</a></li>
+
+            </ul>
+        </nav>
+        <div class="section">
+            <div class="loki">
+                <h1 id="dok_header">Саусақ жаттығулары</h1>
+
+                <h3 align="center">Ешкі</h3>
+                <img src="images/1.png" class="kt_img">
+
+                <p>Күндетәртіпбұзылты,</p>
+                <p>Балалардысүзіпті.</p>
+                <p>Жемістердіүзіпті,</p>
+                <p>Мүйізінетізіпті.</p>
+                <p>Міне, осындайалыпты.</p>
+                <p>Атамкөріпқалыпты.</p>
+                <p>Мазаны ала бердіңдеп-,</p>
+                <p>Мүйізінқағыпалыпты.</p>
+
+                <h3 align="center">Мысық</h3>
+                <img src="images/2.png" class="kt_img">
+
+                <p>Пеш үстіндемысықотыр,</p>
+                <p>Аздапкөзінқысыпотыр.</p>
+                <p>Тышқанетінжегісікеп,</p>
+                <p>Тісіоныңқышыпотыр.</p>
+
+                <h3 align="center">Қоян</h3>
+                <img src="images/3.png" class="kt_img">
+
+                <p>Ұзынқұлақсұрқоян,</p>
+                <p>Естіпқалыпсыбдырды.</p>
+                <p>Ойлы-қырлыжерлермен,</p>
+                <p>Ытқып-ытқыпжүгірді.</p>
+                <p>Қарапедіартына,</p>
+                <p>Қиығынсалыпкөзінің.</p>
+                <p>Кележатқантомпаңдап,</p>
+                <p>Көжегіекенөзінің.</p>
+
+                <h3 align="center">Әтеш</h3>
+                <img src="images/4.png" class="kt_img">
+
+                <p>Әдеміәтеш, Таңатпайтұрыпты. Ойқастапжүріпті.</p>
+                <p>Жан-жаққақарапты.</p>
+                <p>Айдарынтарапты.</p>
+
+                <h3 align="center">Қазым</h3>
+                <img src="images/5.png" class="kt_img">
+
+                <p>Қазым, қазымқаңқылда,</p>
+                <p>Көлдежүзіпсалқыңда.</p>
+                <p>Жемшашайынжейсіңбе ?Көмпитбершідейсіңбе ?Жоқ, жоқ, жоқ</p>
+                <p>Кәмпиттәттіболмайды ас, Арпамененбидайшаш.</p>
+
+                <h3 align="center">ДОП</h3>
+                <img src="images/6.png" class="kt_img">
+                <p>Добым, добымдомалақ?</p>
+                <p>Тоқтамайсыңдомалап.</p>
+                <p>Үстелүстінбүлдірдің,</p>
+                <p>Тәрелкенісындырдың,</p>
+                <p>Тентекболыпкеттіңдеп-,</p>
+                <p>Тұрмынсенітепкімкеп</p>
+
+                <h3 align="center">ҚҰЛЫП</h3>
+                <img src="images/7.png" class="kt_img">
+
+                <p>Ормандабірүйтұр,</p>
+                <p>Есігіндеқұлыптұр.</p>
+                <p>Айтыңдаршыбалалар,</p>
+                <p>Құлыптыкімашады</p>
+
+
+                <h3 align="center">Торғай</h3>
+                <img src="images/8.png" class="kt_img">
+
+                <p>Торғай, торғай, торғайсың, Жақынкеліпқонғайсың.</p>
+                <p>Жемшашайынтойып ал,</p>
+                <p>Сонда торғайтоңбайсың.</p>
+
+
+            </div>
+        </div><!--section-->
+
+        <footer>
+            Полат Ә. Б., Алшынбекова Г. К. &copy; 2021
+        </footer>
+
+
+    </div> <!--wrapper-->
+</body>
+</html>
